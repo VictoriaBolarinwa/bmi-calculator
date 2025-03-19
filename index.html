@@ -36,7 +36,7 @@
         else if ((bmi >=18.5) && (bmi <=24.9)){
             boxFour.innerHTML = `You're in <b>perfect shape </b> and your <b>BMI</b> is <b>${bmi}</b>.<span style= "color: #7e4a0b";>That's <em>'normal weight'</em>, go rock it!</span>`
         }
-        else if ((bmi >=25) && (bmi <=29.9)){
+        else if ((bmi >24.9) && (bmi <=29.9)){
             boxFour.innerHTML = `<span style= "color: #7e4a0b";>Your <b>BMI</b> is <b>${bmi}</b>.</span> That's in the <em>'over weight</em>' category.` 
         }
         else if(weight.value.trim() === '') {
